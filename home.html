@@ -6,23 +6,32 @@
         <meta name="description" content="my website">
         <meta charset="utf-8">
         <style>
-            h1 {
-                color: cornflowerblue;
-                font-size: 30px;
+            html {
+                background-color: blue;
+            }
+            body {
+                background-color: crimson;
+                display: flex;
+                justify-content: space-evenly; /* x-axis  = main axis(default) */
+                align-items: center; /* y-axis = cross axis */
+                height: 800px;
+            }
+
+            div {
+                height: 150px;
+                width: 150px;
+                background-color: darkcyan;
+            }
+            .second {
+                background-color: darkgoldenrod;
             }
         </style>
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>The PaulPlanet Times</h1>
-        </header>
-        <main>
-            <address>23453 Artesia Blvd</address>
-        </main>
-        <footer>
-            &copy; 2021 P.T
-        </footer>
+        <div></div>
+        <div class="second"></div>
+        <div></div>
                 
     </body>
 </html>
