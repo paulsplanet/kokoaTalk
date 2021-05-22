@@ -1,0 +1,33 @@
+.user-component,
+.user-component__column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-component__avatar {
+    width: 70px;
+    height: 70px;
+    display: block;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.user-component__title {
+    font-weight: 600;
+    font-size: 20px;
+}
+.user-component__subtitle {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+}
+.frodo {
+    background: url("../../img/frodo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.ring {
+    background: url("../../img/thering.jpg");
+    background-size: cover;
+    background-position: center;
+}
