@@ -29,4 +29,100 @@
     padding: 8px;
     border-radius: 12px;
     font-size: 12px;
+    margin-bottom: 20px;
+}
+.message-row {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.message-row img {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.message__author {
+    margin-bottom: 8px;
+    display: block;
+}
+.message__info {
+    display: flex;
+    align-items: flex-end;
+}
+.message__bubble {
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 0 10px 10px 10px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+.message__time,
+.message__author {
+    opacity: 0.6;
+    font-size: 12px;
+}
+.message-row__outgoing {
+    justify-content: flex-end;
+}
+.message-row__outgoing .message__bubble {
+    background-color: var(--yellow);
+    border-radius: 10px 0 10px 10px;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.message-row__outgoing .message__info {
+    flex-direction: row-reverse;
+}
+
+.reply {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    align-items: center;  
+}
+.reply__column:first-child {
+    width: 10%
+}
+.reply__column:last-child {
+    width: 90%;
+    position: relative;
+}
+.reply i {
+    opacity: 0.5;
+}
+.reply input {
+    height: 25px;
+    padding-left: 15px;
+    width: 100%;
+    border: var(--main-border);
+    border-radius: 20px;
+}
+.reply__column:last-child > i {
+    position: absolute;
+    right: 27px;
+    top: 7px;
+}
+.reply__column:last-child button {
+    position: absolute;
+    right: -3px;
+    top: 2px;
+}
+.reply__column button {
+    background-color: var(--yellow);
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.reply__column button i {
+    opacity: 1;
+}
+.reply__column button:focus,
+.reply__column button:active {
+    outline: none;
 }
