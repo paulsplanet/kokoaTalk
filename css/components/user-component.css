@@ -1,5 +1,6 @@
 .user-component {
    justify-content: space-between;
+   margin-bottom: 10px;
 }
 .user-component, .user-component__column {
     display: flex;
@@ -37,16 +38,24 @@
     flex-direction: column; 
     align-items: flex-end;
 }
-.frodo {
-    background: url("../../img/frodo.jpg");
+.grogu {
+    background: url("../../img/grogu.jpeg");
     background-size: cover;
     background-position: center;
     width: 80px;
     height: 80px;
     border-radius: 30px;
 }
-.ring {
-    background: url("../../img/thering.jpg");
+.mando {
+    background: url("../../img/mando.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.stormtroopers {
+    background: url("../../img/stormtrooper.jpg");
     background-size: cover;
     background-position: center;
     width: 60px;
