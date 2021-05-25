@@ -13,7 +13,7 @@
     display: block;
     overflow: hidden;
     border-radius: 25px;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 .user-component__title {
     font-weight: 600;
@@ -56,6 +56,54 @@
 }
 .stormtroopers {
     background: url("../../img/stormtrooper.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.yoda {
+    background: url("../../img/yoda.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.asoka {
+    background: url("../../img/asoka.webp");
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.luke {
+    background: url("../../img/luke.png");
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.vader {
+    background: url("../../img/vader.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.obiwan {
+    background: url("../../img/obiwan.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.r2d2 {
+    background: url("../../img/r2d2.webp");
     background-size: cover;
     background-position: center;
     width: 60px;

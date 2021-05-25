@@ -22,7 +22,8 @@
     margin-bottom: 20px
 }
 .open-chat__header span {
-    opacity: 0.5;;
+    opacity: 0.5;
+    margin-left: 10px;
 }
 .open-post {
     display: flex;

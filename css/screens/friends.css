@@ -34,7 +34,7 @@
     }
 }
 #splash-screen {
-    background-color: var(--black);
+    
     position: absolute;
     top: 0;
     height: 100vh;
@@ -47,7 +47,10 @@
     animation-delay: 1.5s;
     color: var(--yellow);
 }
-#splash-screen span {
-    line-height: 30px;
-    width: 85vw;
+.splash-image {
+    background: url("../../img/splashimage.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
 }
