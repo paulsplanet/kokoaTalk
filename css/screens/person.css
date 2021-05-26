@@ -1,0 +1,5 @@
+.personscreen-header__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

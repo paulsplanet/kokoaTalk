@@ -23,16 +23,16 @@
 }
 .open-chat__header span {
     opacity: 0.5;
-    margin-left: 10px;
 }
 .open-post {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 .open-post__title {
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 .open-post__hashtags {
     text-transform: uppercase;

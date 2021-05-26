@@ -2,11 +2,12 @@
     margin-top: 30px;
 }
 .more-suggestions {
-    margin-top: 50px;
+    margin-top: 30px;
     border-top: var(--main-border);
     padding-top: 40px;
 }
-.more-suggestions__titles {
+.more-suggestions__title {
+    display: block;
     margin-bottom: 25px;
 }
 .more-suggestions__icons {
@@ -31,4 +32,8 @@
 .more-suggestions__icon-image i {
     font-size: 30px;
     color: white;
+}
+.more-suggestions__icon-text {
+    color: var(--black);
+    font-size: 12px;
 }

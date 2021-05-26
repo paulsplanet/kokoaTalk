@@ -44,7 +44,7 @@
     align-items: center;
     font-size: 22px;
     animation: hideSplashScreen 0.6s ease-in-out forwards;
-    animation-delay: 1.5s;
+    animation-delay: 0.8s;
     color: var(--yellow);
 }
 .splash-image {
