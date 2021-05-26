@@ -2,4 +2,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: var(--horizontal-space);
+}
+.personscreen-header__icons span {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.personscreen-header__icons span:last-child {
+    border: 2px solid var(--black);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.personscreen-header__icons span:last-child:hover {
+    border: 2px solid var(--yellow);
+    color: var(--yellow);
 }
