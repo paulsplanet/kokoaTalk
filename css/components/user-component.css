@@ -1,6 +1,6 @@
 .user-component {
    justify-content: space-between;
-   margin-bottom: 10px;
+   margin-bottom: 15px;
 }
 .user-component, 
 .user-component__column, 
@@ -114,4 +114,7 @@
 .user-component__time {
     margin-bottom: 10px;
     display: block;
+}
+.last-component{
+    margin-bottom: 65px;
 }

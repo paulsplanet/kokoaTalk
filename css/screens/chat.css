@@ -1,6 +1,6 @@
 #chat-screen {
     background-color: #abc1d1;
-    height: 500vh;
+    height: 200vh;
 }
 #chat-screen .alt-header,
 #chat-screen .status-bar {
@@ -86,7 +86,6 @@
 .message-row__outgoing .message__info {
     flex-direction: row-reverse;
 }
-
 .reply {
     position: fixed;
     bottom: 0;
