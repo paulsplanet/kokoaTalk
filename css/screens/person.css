@@ -13,11 +13,101 @@
     font-size: 16px;
 }
 .personscreen-header__icons span:last-child {
-    border: 2px solid var(--black);
+    border: 2px solid white;
     border-radius: 50%;
     box-sizing: border-box;
 }
 .personscreen-header__icons span:last-child:hover {
     border: 2px solid var(--yellow);
     color: var(--yellow);
+}
+.user-info,
+.user-info__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-info {
+    margin-top: 50vh;
+}
+.user-info__avatar {
+    width: 90px;
+    height: 90px;
+    display: block;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+.user-info__text {
+    margin-top: 15px;
+}
+.user-info__text i {
+    font-size: 12px;
+    margin: 0 0 5px 5px;
+    color: var(--yellow);
+}
+.user-info__text span:first-child {
+    font-weight: 600;
+}
+.user-info__text span:last-child {
+    font-size: 12px;
+}
+.user-nav {
+    margin-top: 40px;
+    border-top: 1px solid var(--black);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.user-nav__icon a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.user-nav__icon i {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.user-nav__icon span {
+    font-size: 12px;
+}
+.person-img {
+    width: 100vw;
+    height: 100vh;
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.person-img__cover {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.person-adj {
+    position: relative;
+    z-index: 5;
+    color: white;
+}
+.mando-back {
+    background: url("../../img/mando-back.png");
+    background-size: cover;
+    background-position: center;
+}
+.storm-back {
+    background: url("../../img/storm-back.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.yoda-back {
+    background: url("../../img/yoda-back.jpg");
+    background-size: cover;
+    background-position: center;
 }
